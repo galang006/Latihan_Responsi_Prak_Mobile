@@ -95,7 +95,7 @@ class _PageListMealsState extends State<PageListMeals> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 10), // Tambahkan jarak horizontal di sini
+                      padding: const EdgeInsets.symmetric(horizontal: 10), 
                       child: Text(
                           meals.strMeal!,
                           textAlign: TextAlign.center, overflow: TextOverflow.ellipsis
