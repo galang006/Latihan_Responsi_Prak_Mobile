@@ -94,7 +94,7 @@ class _PageListCategoriesState extends State<PageListCategories> {
                 children: [
                   Text(category.strCategory!, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10), // Tambahkan jarak horizontal di sini
+                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10), 
                     child: Text(
                       category.strCategoryDescription!,
                       textAlign: TextAlign.justify,
