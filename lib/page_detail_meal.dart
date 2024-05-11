@@ -132,7 +132,7 @@ class _PageDetailMealState extends State<PageDetailMeal> {
               ),
               // Instructions
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 10), // Tambahkan jarak horizontal di sini
+                padding: const EdgeInsets.symmetric(horizontal: 10),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
